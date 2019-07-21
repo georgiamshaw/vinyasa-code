@@ -1,0 +1,23 @@
+{
+  "name": "vinyasa-code",
+  "version": "1.0.0",
+  "description": "Website to fulfil the yoga needs of FAC17",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgiamshaw/vinyasa-code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgiamshaw/vinyasa-code/issues"
+  },
+  "homepage": "https://github.com/georgiamshaw/vinyasa-code#readme",
+  "dependencies": {
+    "nyc": "^14.1.1",
+    "tape": "^4.11.0"
+  }
+}
