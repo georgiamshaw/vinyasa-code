@@ -15,6 +15,7 @@
 - [ ] Refactor code.
 - [ ] Write testable pure functions.
 - [ ] Write tests for the pure functions.
+- [ ] Embed yoga videos onto website.
 
 ## Stretch goals:
 - [ ] Use an API to generate random 10-12 minute long yoga videos from Youtube or similar.
