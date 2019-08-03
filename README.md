@@ -9,8 +9,8 @@
 
 
 ## Goals:
-- [ ] Practice flexbox. 
-- [ ] Have a fully responsive website (without using a crazy amount of media queries!
+- [x] Practice flexbox. 
+- [x] Have a fully responsive website (without using a crazy amount of media queries!)
 - [ ] Have neat, legible and organised code.
 - [ ] Refactor code.
 - [ ] Write testable pure functions.
