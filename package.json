@@ -4,6 +4,9 @@
   "description": "Website to fulfil the yoga needs of FAC17",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint .",
+    "start": "node src/server.js",
+    "test": "tape public/*.test.js | tap-spec",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +20,16 @@
   },
   "homepage": "https://github.com/georgiamshaw/vinyasa-code#readme",
   "dependencies": {
-    "normalize.css": "^8.0.1",
+    "env2": "^2.2.2",
+    "nock": "^10.0.6",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "codecov": "^3.5.0",
+    "eslint": "^6.1.0",
     "nyc": "^14.1.1",
+    "supertest": "^4.0.2",
+    "tap-spec": "^5.0.0",
     "tape": "^4.11.0"
   }
 }
